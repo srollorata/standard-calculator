@@ -1,0 +1,151 @@
+.buttons {
+  all: unset;
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.buttons .button {
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.buttons.disabled {
+  background-color: #282828;
+}
+
+.buttons.operation-disable {
+  background-color: #282828;
+}
+
+.buttons.primary-click {
+  background-color: #42a2d3;
+}
+
+.buttons.primary-default {
+  background-color: #4cc2ff;
+}
+
+.buttons.operation-click {
+  background-color: #282828;
+}
+
+.buttons.danger-hover {
+  background-color: #f97e7b;
+}
+
+.buttons.click {
+  background-color: #282828;
+}
+
+.buttons.primary-hover {
+  background-color: #47b1e8;
+}
+
+.buttons.operation-hover {
+  background-color: #3c3c3c;
+}
+
+.buttons.danger-default {
+  background-color: #fd918f;
+}
+
+.buttons.danger-click {
+  background-color: #f66663;
+}
+
+.buttons.primary-disable {
+  background-color: #42a2d3;
+}
+
+.buttons.danger-disable {
+  background-color: #f66663;
+}
+
+.buttons.hover {
+  background-color: #323232;
+}
+
+.buttons.operation-default {
+  background-color: #323232;
+}
+
+.buttons.default {
+  background-color: #3c3c3c;
+}
+
+.buttons.disabled .button {
+  color: #737373;
+}
+
+.buttons.operation-disable .button {
+  color: #737373;
+}
+
+.buttons.primary-click .button {
+  color: #000000;
+}
+
+.buttons.primary-default .button {
+  color: #000000;
+}
+
+.buttons.operation-click .button {
+  color: #ffffff;
+}
+
+.buttons.danger-hover .button {
+  color: #000000;
+}
+
+.buttons.click .button {
+  color: #ffffff;
+}
+
+.buttons.primary-hover .button {
+  color: #000000;
+}
+
+.buttons.operation-hover .button {
+  color: #ffffff;
+}
+
+.buttons.danger-default .button {
+  color: #000000;
+}
+
+.buttons.danger-click .button {
+  color: #000000;
+}
+
+.buttons.primary-disable .button {
+  color: #424242;
+}
+
+.buttons.danger-disable .button {
+  color: #424242;
+}
+
+.buttons.hover .button {
+  color: #ffffff;
+}
+
+.buttons.operation-default .button {
+  color: #ffffff;
+}
+
+.buttons.default .button {
+  color: #ffffff;
+}
